@@ -4,65 +4,58 @@ import { CgCPlusPlus } from "react-icons/cg";
 import {
   DiJavascript1,
   DiReact,
-  DiNodejs,
   DiMongodb,
   DiPython,
-  DiGit,
   DiJava,
+  DiGithubFull,
+  DiHtml5
 } from "react-icons/di";
 import {
-  SiRedis,
   SiFirebase,
-  SiNextdotjs,
-  SiSolidity,
   SiPostgresql,
+  SiSpring,
+  SiSwagger
 } from "react-icons/si";
-import { TbBrandGolang } from "react-icons/tb";
+
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+        <Col xs={4} md={2} className="tech-icons">
+            <DiJava /> <p style={{fontSize:"30px"}}>Java</p>
+        </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
+        <CgCPlusPlus /> <p style={{fontSize:"30px"}}>C++</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
+        <DiJavascript1 /><p style={{fontSize:"30px"}}>JavaScript</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <TbBrandGolang />
+        <DiReact /><p style={{fontSize:"30px"}}>React</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
+        <DiMongodb /><p style={{fontSize:"30px"}}>Mongo DB</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
+        <SiFirebase /><p style={{fontSize:"30px"}}>Fire Base</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiSolidity />
+        <SiPostgresql /><p style={{fontSize:"30px"}}>PostgreSQL</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
+        <DiPython /><p style={{fontSize:"30px"}}>Python</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
+        <DiGithubFull /><p style={{fontSize:"30px"}}>Github</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
+        <DiHtml5 /><p style={{fontSize:"30px"}}>HTML</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
+        <SiSpring /><p style={{fontSize:"30px"}}>Spring Boot</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiRedis />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPostgresql />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
+        <SiSwagger /><p style={{fontSize:"30px"}}>Swagger</p>
       </Col>
     </Row>
   );
