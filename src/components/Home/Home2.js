@@ -1,13 +1,10 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/binay_profile.jpeg";
 import Tilt from "react-parallax-tilt";
-import {
-  AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
-} from "react-icons/ai";
+import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { SiLeetcode } from "react-icons/si";
 
 function Home2() {
   return (
@@ -19,37 +16,34 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
-              <br />
-              <br />I am fluent in classics like
+              I am a passionate Backend Engineer with{" "}
               <i>
-                <b className="purple"> Java, C++, Javascript and MySQL. </b>
+                <b className="purple">3+ years of experience</b>
+              </i>{" "}
+              building scalable, secure, and high-availability systems for{" "}
+              <i>
+                <b className="purple">Fintech and SaaS platforms.</b>
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              My core expertise lies in
               <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Blockchain.
-                </b>
+                <b className="purple"> Java, Spring Boot, REST APIs, </b>
+              </i>
+              and
+              <i>
+                <b className="purple"> PostgreSQL</b>
+              </i>
+              , with hands-on experience in
+              <i>
+                <b className="purple"> Docker, Kubernetes, and AWS.</b>
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Spring boot</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js</b>
-              </i>
+              I have delivered real-money transaction systems, KYC pipelines,
+              booking engines, and large-scale third-party integrations — things
+              that need to work{" "}
+              <b className="purple">reliably, at scale, every time.</b>
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -77,16 +71,6 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
                   href="https://www.linkedin.com/in/binay-gupta-1ba191191/"
                   target="_blank"
                   rel="noreferrer"
@@ -97,12 +81,12 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com"
+                  href="https://leetcode.com/user3929hZ/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
                 >
-                  <AiFillInstagram />
+                  <SiLeetcode />
                 </a>
               </li>
             </ul>

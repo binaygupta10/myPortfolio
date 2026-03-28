@@ -310,10 +310,24 @@ button:focus {
   padding-top: 9em !important;
 }
 
+.myAvtar img {
+  border-radius: 50% !important;
+  width: 250px !important;
+  height: 250px !important;
+  object-fit: cover !important;
+  object-position: center top !important;
+  border: 3px solid #c770f0 !important;
+  box-shadow: 0 0 25px rgba(199, 112, 240, 0.4) !important;
+}
+
 @media (max-width: 767px) {
   .myAvtar {
     padding-top: 2em !important;
     padding-bottom: 2em !important;
+  }
+  .myAvtar img {
+    width: 180px !important;
+    height: 180px !important;
   }
 }
 

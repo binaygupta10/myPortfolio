@@ -4,27 +4,42 @@ import {
   SiVisualstudiocode,
   SiPostman,
   SiIntellijidea,
-  SiWindows,
   SiMacos,
+  SiDocker,
+  SiGitlab,
+  SiKibana,
 } from "react-icons/si";
 
 function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <SiMacos /><p style={{fontSize:"30px"}}>Mac OS</p>
+        <SiIntellijidea />
+        <p style={{ fontSize: "20px" }}>IntelliJ</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiVisualstudiocode /><p style={{fontSize:"30px"}}>VS Code</p>
+        <SiVisualstudiocode />
+        <p style={{ fontSize: "20px" }}>VS Code</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPostman /><p style={{fontSize:"30px"}}>PostMan</p>
+        <SiPostman />
+        <p style={{ fontSize: "20px" }}>Postman</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiIntellijidea /><p style={{fontSize:"30px"}}>IntelliJ</p>
+        <SiDocker />
+        <p style={{ fontSize: "20px" }}>Docker</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiWindows /><p style={{fontSize:"30px"}}>Windows</p>
+        <SiGitlab />
+        <p style={{ fontSize: "20px" }}>GitLab</p>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiKibana />
+        <p style={{ fontSize: "20px" }}>Kibana</p>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiMacos />
+        <p style={{ fontSize: "20px" }}>macOS</p>
       </Col>
     </Row>
   );

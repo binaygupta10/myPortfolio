@@ -1,61 +1,68 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { CgCPlusPlus } from "react-icons/cg";
+import { DiJavascript1, DiReact, DiJava } from "react-icons/di";
 import {
-  DiJavascript1,
-  DiReact,
-  DiMongodb,
-  DiPython,
-  DiJava,
-  DiGithubFull,
-  DiHtml5
-} from "react-icons/di";
-import {
-  SiFirebase,
-  SiPostgresql,
   SiSpring,
-  SiSwagger
+  SiPostgresql,
+  SiMysql,
+  SiDocker,
+  SiKubernetes,
+  SiAmazonaws,
+  SiHibernate,
+  SiSwagger,
+  SiJunit5,
 } from "react-icons/si";
-
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-        <Col xs={4} md={2} className="tech-icons">
-            <DiJava /> <p style={{fontSize:"30px"}}>Java</p>
-        </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus /> <p style={{fontSize:"30px"}}>C++</p>
+        <DiJava />
+        <p style={{ fontSize: "20px" }}>Java</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 /><p style={{fontSize:"30px"}}>JavaScript</p>
+        <SiSpring />
+        <p style={{ fontSize: "20px" }}>Spring Boot</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiReact /><p style={{fontSize:"30px"}}>React</p>
+        <SiPostgresql />
+        <p style={{ fontSize: "20px" }}>PostgreSQL</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb /><p style={{fontSize:"30px"}}>Mongo DB</p>
+        <SiMysql />
+        <p style={{ fontSize: "20px" }}>MySQL</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase /><p style={{fontSize:"30px"}}>Fire Base</p>
+        <SiDocker />
+        <p style={{ fontSize: "20px" }}>Docker</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPostgresql /><p style={{fontSize:"30px"}}>PostgreSQL</p>
+        <SiKubernetes />
+        <p style={{ fontSize: "20px" }}>Kubernetes</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiPython /><p style={{fontSize:"30px"}}>Python</p>
+        <SiAmazonaws />
+        <p style={{ fontSize: "20px" }}>AWS</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiGithubFull /><p style={{fontSize:"30px"}}>Github</p>
+        <SiHibernate />
+        <p style={{ fontSize: "20px" }}>Hibernate</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiHtml5 /><p style={{fontSize:"30px"}}>HTML</p>
+        <DiJavascript1 />
+        <p style={{ fontSize: "20px" }}>JavaScript</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiSpring /><p style={{fontSize:"30px"}}>Spring Boot</p>
+        <DiReact />
+        <p style={{ fontSize: "20px" }}>React</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiSwagger /><p style={{fontSize:"30px"}}>Swagger</p>
+        <SiJunit5 />
+        <p style={{ fontSize: "20px" }}>JUnit</p>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiSwagger />
+        <p style={{ fontSize: "20px" }}>Swagger</p>
       </Col>
     </Row>
   );
