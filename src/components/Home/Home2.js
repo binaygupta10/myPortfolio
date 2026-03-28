@@ -18,7 +18,7 @@ function Home2() {
             <p className="home-about-body">
               I am a passionate Backend Engineer with{" "}
               <i>
-                <b className="purple">3+ years of experience</b>
+                <b className="purple">3.5+ years of experience</b>
               </i>{" "}
               building scalable, secure, and high-availability systems for{" "}
               <i>
